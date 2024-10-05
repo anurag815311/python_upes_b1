@@ -33,7 +33,6 @@ random1(n)
 # wrapped_fn  =  wrapper(testfn,n)
 # wrapped_fn(n)
 
-
 testfn(n)
 
 # usefull while using fastapi for web server or api server
