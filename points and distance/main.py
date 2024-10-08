@@ -19,6 +19,14 @@ def polar(p1):
     theta=math.atan2(y,x)
     phi=math.degrees(theta);
     return(r,phi)
+
+def move(p1,displacemet):
+    moved={
+        "x":p1["x"]+displacemet[0],
+        "y":p1["y"]+displacemet[1]
+    }
+    return moved
+
 #distance between two points 
 print(distance(p3,p4))
 #calculate polar coordinate 
