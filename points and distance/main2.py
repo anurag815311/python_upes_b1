@@ -15,4 +15,4 @@ p4=Point(7,7)
 #distance between p1 and p2 
 print(p1.distance(p2))
 print(p2.distance(p1))
-
+print(p1.distance(p3))
