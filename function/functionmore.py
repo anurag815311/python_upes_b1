@@ -14,8 +14,15 @@ def sum_of_number(*args):
         sum+=i
     return sum
 
-result=sum_of_number(1,2,3,4,5)
-print(result)
+#result=sum_of_number(1,2,3,4,5)
+#print(result)
+
+def printting(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key}:{value}")
+
+printting(name="Alice", age=30)
+
 
 """
 def print_numbers(*args):
