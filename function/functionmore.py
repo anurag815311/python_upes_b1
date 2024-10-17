@@ -5,8 +5,17 @@ def introduce(name,age=25):
 def sum_number(number):
     return sum(number)
 
+#result=sum_number([1,23,4])
+#print(result)
 
+def sum_of_number(*args):
+    sum=0
+    for i in args:
+        sum+=i
+    return sum
 
+result=sum_of_number(1,2,3,4,5)
+print(result)
 
 """
 def print_numbers(*args):

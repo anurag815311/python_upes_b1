@@ -1,4 +1,4 @@
-def multiply(a, b):
+def multiply(a, b,c=23):
 
     """
     Multiplies two numbers and returns the result.
@@ -10,6 +10,6 @@ def multiply(a, b):
     Returns:
     int, float: The product of a and b.
     """
-    return a + b
+    return a + b + c
 
 print(multiply(23,34))
