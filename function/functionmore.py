@@ -21,7 +21,7 @@ def printting(**kwargs):
     for key,value in kwargs.items():
         print(f"{key}:{value}")
 
-printting(name="Alice", age=30)
+#printting(name="Alice", age=30)
 
 
 """
