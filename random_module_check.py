@@ -14,7 +14,7 @@ while user_input!=correct_num:
     else:
         print("you gussed the correct number")
         counter=counter+1
-print("the number of attempts:",counter)
+print("the number of attempts:",counter)  
         
         
     
