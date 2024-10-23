@@ -9,6 +9,6 @@ print(cat1)
 
 print(isinstance(dog1,Dog))
 #print(isinstance(dog1,Animal))--->Animal is  not defined as it was not imported.
-#now after importing Dog
 
+#now after importing Dog
 print(isinstance(dog1,Animal))  #output->true
