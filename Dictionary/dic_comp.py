@@ -1,4 +1,4 @@
-#write a program using dictionary comrehension to create a dictionary 
+#write a program using dictionary comprehension to create a dictionary 
 n=10
 res={x:x**2 for x in range(0,n) if x % 2==0}
 print(res)
@@ -18,3 +18,13 @@ def swap_dict(input_dict):
 original_dict = {'a': 1, 'b': 2, 'c': 3}
 swapped = swap_dict(original_dict)
 print(swapped)  # Output: {1: 'a', 2: 'b', 3: 'c'}
+
+
+#using dictionary comprehension
+
+def flip_dict(d1):
+    assert isinstance(d1,dict),"Input is not a dictionary"
+    flipped={val:key for key,val in d1.items()}
+    return flipped
+
+print(f"flipped dictionary is \n{flip_dict(res)}")
