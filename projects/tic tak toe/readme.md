@@ -1,0 +1,1 @@
+This is basic tic-tac-toe game developed using tkinter in python.
