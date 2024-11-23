@@ -20,7 +20,7 @@
 
 ## 🚀 Skills & Learning Interests  
 - **Programming Languages**: Python, C, Java,HTML,CSS,JAVASCRIPT,ORACLE-DATABASE(SQL)
-- **Technologies**: Web Development, Machine Learning, Data Analysis  
+- **Learning**: Web Development, Machine Learning, Data Analysis  
 - **Interests**: Solving real-world problems using technology and enhancing programming expertise through projects and competitions.  
 
 ---
