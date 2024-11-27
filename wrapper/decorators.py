@@ -22,4 +22,4 @@ def random_task():
 n=100000
 count(n)
 
-random_task()
+#random_task()
